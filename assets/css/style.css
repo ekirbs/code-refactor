@@ -1,4 +1,5 @@
 /* || General styles */
+/* added Content headers to css for sections for easier use for next developers */
 
 * {
     box-sizing: border-box;
@@ -13,23 +14,25 @@ body {
 
 /* || Header and Main Navigation */
 
-.header {
+/* removed all unneccesary class and id selectors on all items where unneeded and changed to element selectors */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header nav {
+/* changed navigation bar div container to nav to make it more descriptive */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -37,11 +40,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -54,7 +57,9 @@ a {
 
 /* || Background Image */
 
-.background-image {
+/* changed height on image to better see it
+   changed name of container from div to figure */
+figure {
     height: 1200px;
     width: 100%;
     margin-bottom: 25px;
@@ -63,13 +68,18 @@ a {
     background-position: center;
 }
 
-.content {
+
+/* || Main Content */
+
+/* changed parent div container to main, and child div containers to section to make them more descriptive. */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content-section {
+/* combined all selectors into a single class selector (main-section) */
+.main-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -77,11 +87,11 @@ a {
     color: #ffffff;
 }
 
-.content-section img {
+.main-section img {
     max-height: 200px;
 }
 
-.content-section h2 {
+.main-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -96,6 +106,7 @@ a {
     margin-left: 25px;
 }
 
+/* moved p to the end, for better organization */
 p {
     font-size: 16px;
 }
@@ -103,7 +114,8 @@ p {
 
 /* || Right Side Bar */
 
-.benefits {
+/*changed parent div container to aside, and child div containers to section to make it more descriptive.*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -114,17 +126,18 @@ p {
     background-color: #2589bd;
 }
 
-.benefits-section {
+/*combined all selectors into a single class selector (aside-section)*/
+.aside-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits-section h3 {
+.aside-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits-section img {
+.aside-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -133,7 +146,8 @@ p {
 
 /* || Footer */
 
-.footer {
+/* added display:none to hide footer. */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -141,6 +155,6 @@ p {
     display: none;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
