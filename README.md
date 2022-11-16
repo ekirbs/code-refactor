@@ -2,7 +2,7 @@
 
 ## Description
 
-Welcome!  This website is designed to provide useful information about online business strategies that any digital entity can benefit from.
+Welcome!  This website is designed to provide useful information about search engine optimization strategies and beenfits.
 
 ## Table of Contents
 - [Installation](#installation)
