@@ -2,7 +2,7 @@
 
 ## Description
 
-Welcome!  This website is designed to provide useful information about search engine optimization strategies and beenfits.
+Welcome!  This website is designed to provide useful information about search engine optimization strategies and benefits.
 
 ## Table of Contents
 - [Installation](#installation)
