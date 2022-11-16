@@ -4,8 +4,7 @@
 
 Welcome!  This website is designed to provide useful information about online business strategies that any digital entity can benefit from.
 
-## Table of Contents (Optional)
-
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
