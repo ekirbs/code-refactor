@@ -1,4 +1,4 @@
-/* || General styles */
+/* || GENERAL STYLES */
 /* added Content headers to css for sections for easier use for next developers */
 
 * {
@@ -12,7 +12,7 @@ body {
 }
 
 
-/* || Header and Main Navigation */
+/* || HEADER AND MAIN NAVIGATION */
 
 /* removed all unneccesary class and id selectors on all items where unneeded and changed to element selectors */
 header {
@@ -55,7 +55,7 @@ a {
 }
 
 
-/* || Background Image */
+/* || BACKGROUND IMAGE */
 
 /* changed height on image to better see it
    changed name of container from div to figure */
@@ -69,7 +69,7 @@ figure {
 }
 
 
-/* || Main Content */
+/* || MAIN CONTENT */
 
 /* changed parent div container to main, and child div containers to section to make them more descriptive. */
 main {
@@ -112,7 +112,7 @@ p {
 }
 
 
-/* || Right Side Bar */
+/* || RIGHT SIDE BAR */
 
 /*changed parent div container to aside, and child div containers to section to make it more descriptive.*/
 aside {
@@ -144,7 +144,7 @@ aside {
 }
 
 
-/* || Footer */
+/* || FOOTER */
 
 /* added display:none to hide footer. */
 footer {
