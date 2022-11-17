@@ -2,7 +2,9 @@
 
 ## Description
 
-Welcome!  This website is designed to provide useful information about search engine optimization strategies and benefits.
+Welcome!  This website is designed to provide useful information about Search Engine Optimization (SEO) strategies and benefits.
+
+Link: [Horiseon SEO Website](https://ekirbs.github.io/code-refactor/ 'Learn about search engine optimization')
 
 ## Table of Contents
 - [Installation](#installation)
